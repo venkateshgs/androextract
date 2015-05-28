@@ -1,0 +1,11 @@
+cd /home/compute1/Desktop/experiment/androguard/
+for app in /home/compute1/Desktop/experiment/input/*.apk
+do
+./androaxml.py -i $app >  $app.txt
+done
+mv /home/compute1/Desktop/experiment/input/*.txt /home/compute1/Desktop/experiment/manifest
+
+for i in /home/compute1/Desktop/experiment/manifest/*.txt; do grep -o 'android.permission.*' $i | cut -f3- -d'.'| sed 's/">//' > $i.txt ; done
+
+
+mv /home/compute1/Desktop/experiment/manifest/*.txt.txt /home/compute1/Desktop/experiment/output
