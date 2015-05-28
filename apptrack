@@ -1,0 +1,47 @@
+com/apk/res/android
+launcher.permission.INSTALL_SHORTCUT
+browser.permission.READ_HISTORY_BOOKMARKS
+browser.permission.WRITE_HISTORY_BOOKMARKS
+qq.QQApplication" android:persistent="true" android:taskAffinity="android.task.qq" android:theme="@7F0A0013
+qq.LoginActivity" android:taskAffinity="android.task.qq" android:windowSoftInputMode="0x00000020
+qq.SplashActivity" android:screenOrientation="1" android:theme="@android:01030005
+qq.ui.GroupInfo" android:taskAffinity="android.task.qq
+qq.ui.Buddylist" android:taskAffinity="android.task.qq
+qq.ui.ShowUserInfo" android:taskAffinity="android.task.qq
+qq.ui.AddFriend" android:taskAffinity="android.task.qq" android:windowSoftInputMode="0x00000020
+qq.ui.ConditionItemActivity" android:taskAffinity="android.task.qq
+qq.ui.SendVerifyNoteActivity" android:taskAffinity="android.task.qq
+qq.ui.RequestAuthorition" android:taskAffinity="android.task.qq
+qq.ui.RequestDone" android:taskAffinity="android.task.qq
+qq.ContactListActivity" android:taskAffinity="android.task.qq" android:windowSoftInputMode="0x00000020
+qq.FriendGroupManagerListActivity" android:taskAffinity="android.task.qq" android:windowSoftInputMode="0x00000020
+qq.ui.SystemMessage" android:taskAffinity="android.task.qq
+qq.AdMsgActivity" android:taskAffinity="android.task.qq
+qq.ChatHistory" android:taskAffinity="android.task.qq
+qq.SignatureSettingActivity" android:taskAffinity="android.task.qq
+qq.ThemeSettingActivity" android:taskAffinity="android.task.qq
+qq.QqViewActivity" android:taskAffinity="android.task.qq
+qq.LoginProcessActivity" android:taskAffinity="android.task.qq
+qq.HelpActivity" android:taskAffinity="android.task.qq
+qq.ContactManagerActivity" android:taskAffinity="android.task.qq
+qq.SettingManagerActivity" android:taskAffinity="android.task.qq
+qq.ChatWindowsActivity" android:taskAffinity="android.task.qq" android:windowSoftInputMode="0x00000002
+qq.NothingActivity" android:process=":another" android:theme="@android:01030010
+qq.QQService
+qq.SearchBuddyActivity" android:taskAffinity="android.task.qq
+qq.MainActivity
+qq.QQBrowserActivity
+qq.RestoreActivity
+qq.SearchBuddyActivity
+qq.SearchContentProvider" android:name="com.tencent.qq.SearchContentProvider
+qzone.QZoneActivity
+qzone.QZonePhotosActivity" android:windowSoftInputMode="0x00000020" launchMode="singleTask
+qzone.QZonePhotoReplyActivity" android:windowSoftInputMode="0x00000020" launchMode="singleTask
+qzone.QZoneSinglePhotoActivity" android:windowSoftInputMode="0x00000020" launchMode="singleTask
+qzone.QZonePhotoCommentActivity" android:windowSoftInputMode="0x00000020" launchMode="singleTask
+qzone.QZonePublishMoodActivity" android:windowSoftInputMode="0x00000012
+qzone.QZoneAppActivity" android:screenOrientation="1" android:windowSoftInputMode="0x00000020
+qq.UsingSkinUninstallTipActivity" android:theme="@android:0103000B
+qq.MessageBox
+AndroidActionReceiver
+MainService" android:process=":remote
